@@ -5,3 +5,5 @@ The STM32F051 was chosen for its compact size, being small enough while still av
 The software was written in C++ using the CubeIDE environment with HAL libraries.
 
 The Si4463 utilizes the RF front-end design from the datasheet. Although the Si4463 is not capable of handling AIS GMSK packets directly, it detects the AIS training signal and raises an interrupt upon reception. From that point on, it acts as a receiver and modem, while the STM32 handles NRZI encoding, bit-stuffing, checksum calculation, and generates the NMEA sequence of the received packet.
+AIS reciving station have been running for fiew years now using this design and its parameters can be viewed on https://www.marinetraffic.com/en/ais/details/stations/19035
+
