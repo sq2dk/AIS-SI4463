@@ -1,5 +1,7 @@
 This is a short presentation of an AIS Transceiver built using an STM32 microcontroller and the Si4463 sub-GHz TRX IC.
 
+![alt text]([[http://url/to/img.png](https://github.com/sq2dk/AIS-SI4463/blob/main/ready_PCB.jpg)]
+
 The design is very simple, allowing cost reduction and a small footprint.
 The STM32F051 was chosen for its compact size, being small enough while still available in an LQFP48 package, which allows easy assembly and testing.
 The software was written in C++ using the CubeIDE environment with HAL libraries.
